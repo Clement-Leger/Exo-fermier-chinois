@@ -1,6 +1,29 @@
+body{
+    width:90;
+    margin:20%;
+    background-color: beige;
+    background: -webkit-linear-gradient(25deg, rgb(235, 188, 34), rgb(67, 144, 221));
+    background: linear-gradient(25deg, rgb(235, 188, 34), rgb(67, 144, 221));
+    background-image: url('https://d6ce0no7ktiq.cloudfront.net/images/preview/2021/01/07/design-77821/template-sticker-600x600.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+figcaption{
+    font-size:160%;
+    background-color: lightgrey;
+    border-left: 3px firebrick solid;
+    margin: 30px;
+    padding-top: 80px; 
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
 table{
     border : 1px black solid;
     border-collapse: collapse;
+    background-color: grey;
 }
 
 td{
@@ -11,4 +34,35 @@ td{
 th{
     border : 1px black solid;
     border-collapse: collapse;
+}
+
+p{
+    font-family: serif;
+    line-height: 25px;
+    font-size:medium;
+    color : darkred;
+}
+
+a{
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : blue;
+}
+a:hover{
+    color : yellow;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+.good{
+    color:green;
+    text-transform:uppercase;
+}
+
+.bad{
+    color: red;
+    text-transform:uppercase;
 }
